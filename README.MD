@@ -1,4 +1,4 @@
-# ImageMaps
+# ImageMaps (fork that only allows imgur through)
 
 ImageMaps is a plugin for Bukkit  Minecraft servers that enables you to place custom images in your world
 by rendering them onto maps and placing them in item frames.
