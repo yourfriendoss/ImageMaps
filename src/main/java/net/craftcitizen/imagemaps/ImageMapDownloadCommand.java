@@ -55,7 +55,7 @@ public class ImageMapDownloadCommand extends ImageMapSubCommand {
                 return;
             }
 
-            if (srcURL.getHost() != "i.imgur.com") {
+            if (!srcURL.getHost().equals("i.imgur.com")) {
                 MessageUtil.sendMessage(getPlugin(), sender, MessageLevel.WARNING, "Only i.imgur.com can be used as a host!");
                 return;
             }
